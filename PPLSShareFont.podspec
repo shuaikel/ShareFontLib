@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shuaikel/ShareFontLib'
+  s.homepage         = 'git@github.com:shuaikel/ShareFontLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hushuaike' => 'hushuaike@163.com' }
-  s.source           = { :git => 'https://github.com/shuaikel/ShareFontLib', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:shuaikel/ShareFontLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
