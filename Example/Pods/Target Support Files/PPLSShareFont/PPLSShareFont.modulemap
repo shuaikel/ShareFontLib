@@ -1,0 +1,6 @@
+framework module PPLSShareFont {
+  umbrella header "PPLSShareFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

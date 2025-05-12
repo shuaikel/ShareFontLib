@@ -1,13 +1,10 @@
 use_frameworks!
+source 'https://cdn.cocoapods.org/'
 
-platform :ios, '10.0'
+platform :ios, '14.0'
 
 target 'PPLSShareFont_Example' do
   pod 'PPLSShareFont', :path => '../'
-
-  target 'PPLSShareFont_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  pod 'SnapKit'
 end

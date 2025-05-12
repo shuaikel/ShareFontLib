@@ -1,0 +1,29 @@
+{
+  "name": "PPLSShareFont",
+  "version": "0.1.0",
+  "summary": "A short description of PPLSShareFont.",
+  "swift_versions": "5.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hushuaike/PPLSShareFont",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hushuaike": "hushuaike@163.com"
+  },
+  "source": {
+    "git": "https://github.com/hushuaike/PPLSShareFont.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.0"
+  },
+  "source_files": "PPLSShareFont/Classes/**/*",
+  "resource_bundles": {
+    "PPLSShareFont": [
+      "PPLSShareFont/Assets/**/*"
+    ]
+  },
+  "swift_version": "5.0"
+}
