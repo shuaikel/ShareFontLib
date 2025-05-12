@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'git@github.com:shuaikel/ShareFontLib.git'
+  s.homepage         = 'https://github.com/shuaikel/ShareFontLib.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hushuaike' => 'hushuaike@163.com' }
