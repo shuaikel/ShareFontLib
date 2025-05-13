@@ -1,10 +1,10 @@
 {
   "name": "PPLSShareFont",
   "version": "0.1.0",
-  "summary": "A short description of PPLSShareFont.",
+  "summary": "PPLSShareFont 字体共享",
   "swift_versions": "5.0",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hushuaike/PPLSShareFont",
+  "description": "一个用于iOS应用程序的字体管理库，支持动态注册和使用自定义字体",
+  "homepage": "https://github.com/shuaikel/ShareFontLib.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,7 +13,7 @@
     "hushuaike": "hushuaike@163.com"
   },
   "source": {
-    "git": "https://github.com/hushuaike/PPLSShareFont.git",
+    "git": "https://github.com/shuaikel/ShareFontLib.git",
     "tag": "0.1.0"
   },
   "platforms": {

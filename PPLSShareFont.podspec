@@ -11,22 +11,14 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'PPLSShareFont 字体共享'
   s.swift_version    = '5.0'
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-  共享字体
-                       DESC
-
-  s.homepage         = 'https://github.com/shuaikel/ShareFontLib.git'
+  #
+  s.description      = '一个用于iOS应用程序的字体管理库，支持动态注册和使用自定义字体'
+  s.homepage         = 'https://github.com/shuaikel/ShareFontLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hushuaike' => 'hushuaike@163.com' }
   s.source           = { :git => 'https://github.com/shuaikel/ShareFontLib.git', :tag => s.version.to_s }
-
+  
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'PPLSShareFont/Classes/**/*'
@@ -35,6 +27,9 @@ Pod::Spec.new do |s|
      'PPLSShareFont' => ['PPLSShareFont/Assets/**/*']
    }
 
+   # 指定使用 XCFramework
+#   s.vendored_frameworks = 'PPLSShareFont.xcframework'
+   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
